@@ -160,21 +160,23 @@
             // 
             // btnDangNhap
             // 
+            this.btnDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnDangNhap.Location = new System.Drawing.Point(29, 171);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(117, 37);
             this.btnDangNhap.TabIndex = 4;
             this.btnDangNhap.Text = "Đăng nhập";
-            this.btnDangNhap.UseVisualStyleBackColor = true;
+            this.btnDangNhap.UseVisualStyleBackColor = false;
             // 
             // btnThoat
             // 
+            this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnThoat.Location = new System.Drawing.Point(176, 171);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(117, 37);
             this.btnThoat.TabIndex = 5;
             this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.UseVisualStyleBackColor = false;
             // 
             // chkNhoThongTin
             // 
