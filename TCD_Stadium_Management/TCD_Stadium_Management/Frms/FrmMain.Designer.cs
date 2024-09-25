@@ -30,11 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.pnlTop = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnChangePassword = new System.Windows.Forms.Button();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.pnlCenter = new System.Windows.Forms.Panel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.button2 = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
             this.pnlTop.SuspendLayout();
             this.pnlCenter.SuspendLayout();
@@ -45,8 +44,7 @@
             // pnlTop
             // 
             this.pnlTop.Controls.Add(this.btnLogout);
-            this.pnlTop.Controls.Add(this.label3);
-            this.pnlTop.Controls.Add(this.btnChangePassword);
+            this.pnlTop.Controls.Add(this.button2);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.MaximumSize = new System.Drawing.Size(0, 50);
@@ -54,29 +52,6 @@
             this.pnlTop.Name = "pnlTop";
             this.pnlTop.Size = new System.Drawing.Size(989, 50);
             this.pnlTop.TabIndex = 0;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(77, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 29);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "TCD";
-            // 
-            // btnChangePassword
-            // 
-            this.btnChangePassword.Image = ((System.Drawing.Image)(resources.GetObject("btnChangePassword.Image")));
-            this.btnChangePassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChangePassword.Location = new System.Drawing.Point(237, 3);
-            this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(136, 41);
-            this.btnChangePassword.TabIndex = 2;
-            this.btnChangePassword.Text = "Đổi mật khẩu";
-            this.btnChangePassword.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnChangePassword.UseVisualStyleBackColor = true;
             // 
             // pnlBottom
             // 
@@ -107,18 +82,29 @@
             this.splitContainer1.SplitterDistance = 233;
             this.splitContainer1.TabIndex = 0;
             // 
+            // button2
+            // 
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(379, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(119, 41);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Đăng xuất";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // btnLogout
             // 
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(388, 3);
+            this.btnLogout.Location = new System.Drawing.Point(254, 3);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(119, 41);
-            this.btnLogout.TabIndex = 4;
-            this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.TabIndex = 2;
+            this.btnLogout.Text = "Đổi mật khẩu";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // FrmMain
             // 
@@ -133,10 +119,7 @@
             this.MinimumSize = new System.Drawing.Size(898, 531);
             this.Name = "FrmMain";
             this.Text = "TCD Stadium Management";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMainClosing);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmMainClose);
             this.pnlTop.ResumeLayout(false);
-            this.pnlTop.PerformLayout();
             this.pnlCenter.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
@@ -150,8 +133,7 @@
         private System.Windows.Forms.Panel pnlBottom;
         private System.Windows.Forms.Panel pnlCenter;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button btnChangePassword;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnLogout;
     }
 }
