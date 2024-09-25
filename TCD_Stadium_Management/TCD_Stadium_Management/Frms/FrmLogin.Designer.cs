@@ -143,7 +143,7 @@
             // 
             this.chkNhoThongTin.AutoSize = true;
             this.chkNhoThongTin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkNhoThongTin.Location = new System.Drawing.Point(32, 130);
+            this.chkNhoThongTin.Location = new System.Drawing.Point(139, 130);
             this.chkNhoThongTin.Name = "chkNhoThongTin";
             this.chkNhoThongTin.Size = new System.Drawing.Size(103, 20);
             this.chkNhoThongTin.TabIndex = 2;
